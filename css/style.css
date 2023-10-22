@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0;
+}
+.container {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.header {
+    display: flex;
+    width: 100%;
+    background: #ececec;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.top-header {
+    display: flex;
+    background: #333;
+    width: 100%;
+    color: #fff;
+    flex-wrap: wrap;
+}
+.top-header-inner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+    align-items: center;
+}
+.top-left p {
+    margin: 0;
+}
+.top-right > ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+.top-right > ul > li {
+    margin-left: 10px;
+}
+.top-right > ul > li > a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+.top-right > ul > li > a:hover {
+    color: red;
+}
+.middle-header {
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background-image: url('../img/bg.jpg');
+}
+.top-right ul > li >ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+.top-right ul > li {
+transition: 0.5s;
+}
+.top-right ul > li >ul{
+    margin-top: 20px;
+
+}
+  
+
+
+.top-right ul > li >ul >li >a{
+    color: #fff;
+    text-decoration: none;
+ 
+}
+.top-right ul > li:hover > ul{
+    display: block;
+    
+transition: 0.5s;
+}
+.main-content{
+    display: flex;
+    align-items: center;
+}
+#first{
+    margin-top: 20px;
+    border:2px solid black;
+    width: 50%;
+    /* float: left; */
+    height: 300px;
+
+    
+}
+#second{
+    margin-top: 20px;
+    border:2px solid black;
+    width: 50%;
+    /* float: left; */
+    width: 500px;
+    height: 300px;
+}
+#second img{
+   
+    border:2px solid black;
+    width: 700px;
+    height: 300px;
+}
+  

@@ -1,0 +1,195 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    display: flex;
+    letter-spacing: 0;
+    line-height: 1.6px;
+    font-size: 16px;
+    font-family: sans-serif;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+
+    max-width: 1150px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+
+.header {
+    background-color: #e2ecec;
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    flex-wrap: wrap;
+
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.left-col p {
+    padding-left: 10px;
+}
+
+.left-col {
+    display: flex;
+    /* flex-wrap: wrap; */
+    color: black;
+    margin: 10px;
+    align-items: center;
+    padding: 10px;
+}
+
+.right-col {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.right-col ul {
+    display: flex;
+
+}
+
+
+
+
+.right-col ul li {
+    display: flex;
+    margin-left: 20px;
+
+
+
+}
+
+.right-col ul li a {
+
+    text-decoration: none;
+
+}
+
+li a:hover {
+    color: orangered
+}
+
+.mid-col {
+    display: flex;
+
+
+}
+
+.mid-col>.container {
+
+    max-width: 1150;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.border{
+    border: 2px solid transparent;
+    padding: 10px;
+}
+.border:hover{
+    border: 2px solid #2b2926;
+    padding: 10px;
+}
+
+.log {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0
+}
+
+.mid-container {
+    display: flex;
+    width: 100%;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 30px 0;
+    margin: 0;
+
+
+
+
+}
+
+.mid-conainer {
+    padding: 30px 0;
+}
+
+/* .icon {
+    display: flex;
+    padding: 10px;
+    margin: 0 200px;
+    border: 1px solid black;
+    
+    border-radius: 50%;
+    /* justify-content: center; */
+
+.mid-right-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mid-conainer {
+    width: 100%;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.mid-right-col {
+
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.mid-log {
+    display: flex;
+    align-items: center;
+}
+
+.mid-icon {
+    padding: 20px;
+}
+
+.mid-mailicon {
+    margin: 25px;
+}
+
+button {
+    font-size: 16px;
+    background-color: orangered;
+    color: white;
+    padding: 15px 30px;
+    margin: 15px 30px;
+
+}
+
+button:hover {
+    background-color: black;
+}
+
+/* .mid-icon {
+    display:
+mid-right-col */

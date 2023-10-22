@@ -1,0 +1,29 @@
+/* body{
+    /* background-color: aqua; */
+    /* background-image: url("../css/img/flower.jpg");
+    background-size: cover; */
+body{
+    background: url("/img/flower.jpg");
+}
+    
+    
+    .box{
+        width: 800px;
+        height: 350px;
+        border: 1px dotted #000;
+        margin: 150px auto;
+        background-color: rgba(0,0,0, 0.5);
+        border-radius: 20px;
+        color:white;
+        text-align: center;
+        overflow:auto;
+        /* position:absolute; */
+        
+        
+    }
+    .box h1 p{
+        margin: 20px 40px;
+        float: left;
+       
+        
+    }

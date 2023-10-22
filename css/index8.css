@@ -1,0 +1,102 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.header{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    color:blue;
+    background-image: cover;
+    background-color: darkgray;
+}
+.log{
+    margin: 10px;
+}
+.email-sec input{
+    padding: 13px;
+    border-radius: 6px;
+}
+.pass-sec input{
+    padding: 13px;
+    border-radius: 6px;
+
+}
+.detail-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-button input{
+    background-color: blue;
+    color:azure;
+    padding: 10px;
+    margin: 0 10px;
+    border-radius: 6px;
+    border:1px solid transparent;
+    font-size:20px;
+    letter-spacing: 2px;
+}
+.fog-sec{
+    margin: 0  10px;
+}
+.content {
+    background-color: #F2f0f5;
+    height: 700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+    
+    
+}
+.footer{
+    background-color: white;
+}
+.content-container {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.box input{
+    padding: 15px;
+    width: 350px;
+    border-radius: 6px;
+    margin: 0 10px;
+}
+.button-account{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position:relative;
+    right: 0;
+}
+.first-button input {
+        margin: 5px 5px; 
+        padding: 5px 5px;
+        background-color: gray;
+        color: white;
+        border-radius:6px ;
+    }
+    .second-button input {
+        margin: 5px 5px; 
+        padding: 5px 5px;
+        background-color: blue;
+        color: white;
+        border-radius:6px ;
+    }
+
+
+
+
